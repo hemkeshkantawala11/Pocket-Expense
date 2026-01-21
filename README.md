@@ -1,49 +1,49 @@
 
-# PocketExpense+ 💸
+# PocketExpense
 
 PocketExpense+ is a full-stack **expense tracking mobile application** built using **React Native (Expo)** and **Node.js + Express**, with **MongoDB** as the database.  
 Unlike basic expense trackers, PocketExpense+ provides **deep insights**, **offline support**, and a **clean dark-mode UI**.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 - User registration & login
 - JWT-based authentication
 - Secure logout
 - Change password feature
 
-### 💸 Expense Management
+### Expense Management
 - Add, edit, delete expenses
 - Fields: amount, category, payment method, date
 - Category & payment method dropdowns
 - Calendar-based date picker
 
-### 📶 Offline Support
+### Offline Support
 - Add expenses while offline
 - Automatically syncs when internet is restored
 - Uses AsyncStorage as an offline queue
 
-### 🔍 Filtering & Search
+### Filtering & Search
 - Filter expenses by custom date range (calendar-based)
 - Search expenses by category or payment method
 
-### 📊 Insights & Analytics
+### Insights & Analytics
 - Monthly total spend
 - Average daily spending
 - Month-over-month spending comparison
 - Category-wise breakdown (Pie Chart)
 - Dynamic month & year selection
 
-### 🌙 UI / UX
+### UI / UX
 - Complete dark mode support
 - Clean card-based UI
 - No default headers for a modern look
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React Native (Expo)
@@ -64,7 +64,7 @@ Unlike basic expense trackers, PocketExpense+ provides **deep insights**, **offl
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ### Backend
 ```
@@ -96,7 +96,7 @@ frontend/
 
 ---
 
-## 🔗 API Endpoints (Backend)
+## API Endpoints (Backend)
 
 ### Auth
 - `POST /api/auth/register`
@@ -119,7 +119,7 @@ frontend/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Backend Setup
 ```bash
@@ -150,7 +150,7 @@ npm start
 
 ---
 
-## 🧠 Design Decisions
+## Design Decisions
 
 - Analytics computed on backend using MongoDB aggregation
 - JWT kept stateless; logout handled on client
@@ -160,7 +160,7 @@ npm start
 
 ---
 
-## 📌 Assignment Highlights
+## Assignment Highlights
 
 ✔ Full-stack implementation  
 ✔ Offline-first support  
@@ -171,12 +171,12 @@ npm start
 
 ---
 
-## 🙌 Author
+## Author
 
 **Hemkesh Kantawala**  
 Full-Stack Developer  
 
 ---
 
-## 📎 License
+## License
 This project is part of an academic assignment and is intended for evaluation purposes only.
